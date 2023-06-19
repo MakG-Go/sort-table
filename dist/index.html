@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header>
+
+</header>
+    <main>
+
+        <div class="container">
+
+            <h1 class="h1 mb-20 mb-xs-15">
+                Список пользователей
+            </h1>
+
+            <section class="mb-75 mb-xs-25">
+                <div class="baloon baloon__shadow pl-10 pr-10">
+                    <div class="row mb-25 mb-xs-10">
+                        <div class="col-lg-12 col-xs-6 pl-0 pr-0 user-list__serch flex">
+                            <img class="mr-10" src="img/serch.png" alt="">
+                            <input class="user-list__input js-serch-input" type="text"
+                                placeholder="Поиск по имени или e-mail">
+                        </div>
+                    </div>
+
+                    <button class="flex btn user-list__button user-list__button_standart mr-10 mr-xs-10 js-sort-button"
+                        data-sort="clear"> <img class="mr-10" src="img/clean.png" alt=""><span>Очистить
+                            фильтр</span></button>
+
+                </div>
+            </section>
+
+            <section class="row mb-15 mb-xs-15">
+                <div class="col-lg-12 col-xs-6 pl-0 ">
+                    <span class="text-grey-1 mr-10">Сортировка:</span>
+                    <button class="btn user-list__button mr-10 mr-xs-10 js-sort-button"
+                        data-sort="registration_date">Дата
+                        регистрации</button>
+                    <button class="btn user-list__button js-sort-button" data-sort="rating">Рейтинг</button>
+                </div>
+
+            </section>
+
+
+            <section class="baloon user-list__wrapper mb-25 mb-xs-15">
+
+                <div class="row">
+                    <div class="col-lg-12 col-xs-6 hide-xs">
+                        <div class="row user-list__header">
+                            <div class="col-lg-3 col-xs-6">
+                                <p class="text-s text-grey-1">Имя пользователя</p>
+                            </div>
+                            <div class="col-lg-3 col-xs-6">
+                                <p class="text-s text-grey-1">E-mail</p>
+                            </div>
+                            <div class="col-lg-3 col-xs-6">
+                                <p class="text-s text-grey-1">Дата регистрации</p>
+                            </div>
+                            <div class="col-lg-3 col-xs-6">
+                                <p class="text-s text-grey-1">Рейтинг</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row js-user-list mb-25 mb-xs-15">
+                </div>
+
+            </section>
+
+            <ul class="flex jf-center js-pagination-boolits">
+                <li class="user-list__pagination"><span>1</span></li>
+            </ul>
+
+        </div>
+
+    </main>
+    <footer>
+    <script src="js/app.min.js"></script>
+</footer>
+
+    <!-- Modal -->
+    <section class="user-list__modal">
+
+
+        <div class="user-list__modal_contant baloon flex flex__col ai-center jf-c">
+
+            <p class="text-m  mb-25 mb-xs-15">Вы уверены, что хотите удалить пользователя?</p>
+
+
+            <div class="flex jf-c w-100">
+                <button class="btn btn-modal js-modal-agree">
+                    Да
+                </button>
+
+                <button class="btn btn-modal js-modal-disagree ml-15 ml-xs-10">
+                    Hет
+                </button>
+
+            </div>
+        </div>
+
+
+        <div class="overlay"></div>
+
+    </section>
+
+</body>
+
+</html>
