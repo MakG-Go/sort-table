@@ -25,12 +25,13 @@ body {
 .container {
 	position: relative;
 	max-width: 960px;
-	padding: 0;
+	padding-top: 15px;
 	width: calc(100% - 40px);
 	margin: auto;
 
 	@media #{$breakpoint-xs-only} {
 		padding: 0 7.5px;
+		padding-top: 7.5px;
 		width: calc(100% - 15px);
 		max-width: 375px;
 	}
@@ -48,5 +49,18 @@ body {
 .h {
 	&-100 {
 		height: 100%;
+	}
+}
+
+.hide {
+	&-xs {
+		@media #{$breakpoint-xs-only} {
+			display: none;
+		}
+	}
+	&-lg {
+		@media #{$breakpoint-lg-only} {
+			display: none;
+		}
 	}
 }

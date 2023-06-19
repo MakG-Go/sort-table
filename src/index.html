@@ -8,7 +8,7 @@
     @@include('html/header.html'{})
     <main>
 
-        <div class="container mt-25 mt-xs-15">
+        <div class="container">
 
             <h1 class="h1 mb-20 mb-xs-15">
                 Список пользователей
@@ -31,7 +31,7 @@
                 </div>
             </section>
 
-            <section class="row mb-15 ">
+            <section class="row mb-15 mb-xs-15">
                 <div class="col-lg-12 col-xs-6 pl-0 ">
                     <span class="text-grey-1 mr-10">Сортировка:</span>
                     <button class="btn user-list__button mr-10 mr-xs-10 js-sort-button"
@@ -43,10 +43,10 @@
             </section>
 
 
-            <section class="baloon user-list__wrapper mb-15">
+            <section class="baloon user-list__wrapper mb-25 mb-xs-15">
 
                 <div class="row">
-                    <div class="col-lg-12 col-xs-6">
+                    <div class="col-lg-12 col-xs-6 hide-xs">
                         <div class="row user-list__header">
                             <div class="col-lg-3 col-xs-6">
                                 <p class="text-s text-grey-1">Имя пользователя</p>
@@ -66,11 +66,11 @@
                 <div class="row js-user-list mb-25 mb-xs-15">
                 </div>
 
-                <ul class="flex jf-center js-pagination-boolits">
-                    <li class="user-list__pagination"><span>1</span></li>
-                </ul>
-
             </section>
+
+            <ul class="flex jf-center js-pagination-boolits">
+                <li class="user-list__pagination"><span>1</span></li>
+            </ul>
 
         </div>
 
