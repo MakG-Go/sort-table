@@ -1,0 +1,21 @@
+// converting px-to-rem
+$body-fs: 12px;
+$body-lh: 16px;
+
+//colors
+$black: rgba(0, 0, 0, 1);
+$white: #f7f7f7;
+$gray-1: #acacac;
+$gray-2: #9eaab4;
+$blue: #0cb4f1;
+
+// font-family
+$Regular: "Inter-Regular", sans-serif;
+$Middle: "Inter-Medium", sans-serif;
+$Bold: "Inter-Bold", sans-serif;
+
+//bg-color
+$bg-colos: (
+      "black": rgba(0, 0, 0, 1),
+      "red": rgba(136, 32, 31, 1),
+);
