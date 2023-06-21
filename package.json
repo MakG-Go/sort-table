@@ -24,6 +24,7 @@
     "gulp-webp": "^4.0.1",
     "install": "^0.13.0",
     "npm": "^8.13.0",
+    "sass": "~1.53.0",
     "webp-converter": "^2.2.3"
   },
   "devDependencies": {
@@ -41,7 +42,6 @@
     "gulp-version-number": "^0.2.4",
     "gulp-webp-html-nosvg": "^1.1.1",
     "gulp-webpcss": "^1.1.1",
-    "sass": "^1.53.0",
     "swiper": "^8.2.4",
     "webpack": "^5.73.0",
     "webpack-stream": "^7.0.0"

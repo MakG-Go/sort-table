@@ -7,6 +7,7 @@ import cleanCss from 'gulp-clean-css'; // Сжатие CSS
 import autoPrefixer from 'gulp-autoprefixer';
 import groupCssMediaQueries from 'gulp-group-css-media-queries';
 
+// import * as sass from 'sass'
 
 const sass = gulpSass(dartSass);
 
