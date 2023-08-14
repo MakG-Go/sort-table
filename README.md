@@ -4,4 +4,4 @@ dev-mode: npm run dev;
 
 build-mode: npm run build;
 
-deploy: https://makg-go.github.io/sort-table/
+deploy: https://inquisitive-basbousa-183eaf.netlify.app/
